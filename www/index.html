@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <link rel="stylesheet" type="text/css" href="css/index.css">
+        <title>Barcode Scanner</title>
+        <meta name="viewport" content="user-scalable=no, maximum-scale=1, minimum-scale=1,  initial-scale=1, width=device-width, height=device-height, viewport-fit=cover">
+    </head>
+    <body>
+        <div class="outer">
+            <div class="inner">
+                <div class="app">
+                    <div class="button" id="start-scan">
+                        Scan Now
+                    </div><br>
+                    <div class="button button-sm" id="start-license-scan">
+                        License Scan
+                    </div><br>
+                    <div class="button button-sm" id="start-vin-scan">
+                        VIN Scan
+                    </div>
+                    <pre id="last-result">Waiting for result...</pre>
+                </div>
+            </div>
+        </div>
+
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+    </body>
+</html>
