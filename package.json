@@ -10,9 +10,8 @@
   "author": "Dealr, Inc.",
   "license": "MIT",
   "dependencies": {
-    "cordova-android": "^6.3.0",
-    "cordova-custom-config": "git+https://github.com/dpa99c/cordova-custom-config.git",
-    "cordova-gmv-barcode-scanner": "file:///Users/forrestmiddleton/DealrProjects/cordova-gmv-barcode-scanner",
+    "cordova-android": "^7.1.0",
+    "cordova-gmv-barcode-scanner": "^1.2.2",
     "cordova-ios": "^4.5.4",
     "cordova-plugin-splashscreen": "^5.0.2",
     "cordova-plugin-statusbar": "^2.4.2",
@@ -22,12 +21,12 @@
     "plugins": {
       "cordova-plugin-whitelist": {},
       "cordova-plugin-splashscreen": {},
-      "cordova-gmv-barcode-scanner": {},
-      "cordova-plugin-statusbar": {}
+      "cordova-plugin-statusbar": {},
+      "cordova-gmv-barcode-scanner": {}
     },
     "platforms": [
-      "android",
-      "ios"
+      "ios",
+      "android"
     ]
   }
 }
